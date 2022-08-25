@@ -6,19 +6,18 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
-import { ProductsComponent } from './products/products.component';
 import { LoginComponent } from './login/login.component';
 import { UserComponent } from './user/user.component';
-
+import { BookListComponent } from './components/book-list/book-list.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    ProductsComponent,
     LoginComponent,
-    UserComponent
+    UserComponent,
+    BookListComponent
   ],
   imports: [
     BrowserModule,
