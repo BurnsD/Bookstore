@@ -15,7 +15,7 @@ public class BookServiceImpl implements IBookService {
 	private BookRepository repo;
 
 	@Override
-	public Integer saveBook(Book b) {
+	public Long saveBook(Book b) {
 		b = repo.save(b);
 		return b.getId();
 	}

@@ -6,6 +6,6 @@ import com.burnsd.onlinebookstore.entity.Book;
 
 public interface IBookService {
 	
-	Integer saveBook(Book b);
+	Long saveBook(Book b);
 	List<Book> findAllBooks();
 }
