@@ -4,5 +4,6 @@ export class Book {
     name!: string;
     description!: string;
     unitPrice!: number;
+    imageUrl!: string;
     
 }

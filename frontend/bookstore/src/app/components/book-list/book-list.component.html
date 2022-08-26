@@ -10,11 +10,11 @@
     <tbody>
       <tr *ngFor="let book of books">
         <td>
-            <img src="http://placehold.it/250x300" height="50">
+            <img [src]="book.imageUrl" height="50">
         </td>
         <td>{{book.name}}</td>
         <td>{{book.description}}</td>
-        <td>{{book.unitPrice }}</td>
+        <td>{{book.unitPrice | currency }}</td>
       </tr>
     </tbody>
   </table>
