@@ -68,7 +68,7 @@ export class BookListComponent implements OnInit {
 
     if (hasCategoryId) {
       this.currentCategoryId =
-        +this._activatedRoute.snapshot.paramMap.get('id');
+        2;
     } else {
       this.currentCategoryId = 1;
     }
